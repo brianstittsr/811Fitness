@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item class="vertical-space">
+      <h1 class="center">811 Fitness Client Profile</h1>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">First Name</ion-label>
+      <ion-input type="text" position="floating" placeholder="first name" [(ngModel)]="firstname"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Last Name</ion-label>
+      <ion-input type="text" position="floating" placeholder="last name" [(ngModel)]="lastname"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Phone</ion-label>
+      <ion-input type="text" position="floating" placeholder="phone" [(ngModel)]="phone"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input type="email" position="floating" placeholder="email" [(ngModel)]="email"></ion-input>
+    </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Age</ion-label>
+        <ion-input type="number" placeholder="Age" [(ngModel)]="age"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Weight</ion-label>
+      <ion-input type="number" placeholder="Weight" [(ngModel)]="weight"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="stacked">Height</ion-label>
+    <ion-input type="number" placeholder="Height" [(ngModel)]="height"></ion-input>
+</ion-item>
+  <ion-item>
+  <ion-label position="stacked">Fitness Goals</ion-label>
+  <ion-input type="text" placeholder="goals" [(ngModel)]="goals"></ion-input>
+</ion-item>
+<ion-item>
+<ion-label position="stacked">Health Risks</ion-label>
+<ion-input type="text" placeholder="goals" [(ngModel)]="risks"></ion-input>
+</ion-item>
+<ion-item>
+<ion-label position="stacked">Moves you cannot do</ion-label>
+<ion-input type="text" placeholder="moves" [(ngModel)]="moves"></ion-input>
+</ion-item>
+  </ion-list>
+</ion-content>

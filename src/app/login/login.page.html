@@ -1,0 +1,19 @@
+<ion-content padding class="background">
+  <ion-list class="item item-trns" color="transparent">
+    <ion-item class="vertical-space">
+      <h1 class="center item-content">811 Fitness App</h1>
+    </ion-item>
+    <ion-item color="transparent">
+      <ion-label position="stacked">Email</ion-label>
+      <ion-input type="email" position="floating" placeholder="Email" [(ngModel)]="email"></ion-input>
+    </ion-item>
+      <ion-item class="item-content" color="transparent">
+        <ion-label position="stacked">Password</ion-label>
+        <ion-input type="password" placeholder="Password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="block" color="danger" shape="round" (click)="login()">Login</ion-button>
+  <ion-button class="center" fill="clear" color="danger" (click)="register()">New to App? Register Here</ion-button>
+  
+  </ion-content>
+  

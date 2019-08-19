@@ -1,0 +1,34 @@
+:host {
+    ion-content {
+      --background: url('/assets/bg.jpg') no-repeat 50% 50%;
+      background-color: transparent !important;
+      overflow: visible;
+    }
+
+    ion-item {
+        //background: theme-colors('mainColors', 'accent') !important;
+        //box-shadow: 0 10px 20px rgba(0, 0, 0, .2) !important;
+        margin: 5px 10px 15px 10px !important;
+        padding: 5px 10px !important;
+        width: calc(100% - 9px);
+        z-index: 999;
+        font-weight: 400 !important;
+        overflow: visible;
+        //background-color: transparent !important;
+        --ion-color-transparent: rgba(0, 0, 0, 0.0);
+    }
+
+    .vertical-space {
+        margin-bottom:75px;
+        margin-top :75px;
+        --inner-border-width: 0px;
+    }
+    
+    .center{
+        width: 100%;
+        text-align: center;
+    }
+
+    --ion-color-transparent: rgba(0, 0, 0, 0.0);
+}
+  
